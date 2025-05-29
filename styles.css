@@ -1,0 +1,63 @@
+/*
+    TODO:
+    - #image should be smaller than the container, it should have 5px border white.
+    - #family_frame should be better centered.
+*/
+#main{
+    background-color: #C3C3C3;
+    border-width: 2px;
+    border-color: white;
+}
+#header, h2{
+    text-align: center;
+}
+#img-div{
+    background-color: white;
+    display:flex;
+    text-align: center;
+    max-width: 70%;
+    max-height: 70%;
+    flex-direction: column;
+    -ms-flex-align: center;
+    margin: auto;
+}
+#image{
+    max-width: 60%;
+    max-height: 60%;
+    margin:auto;
+    margin-top:5px;
+}
+#mother_sister_img, #father_img{
+    max-width: 60%;
+    max-height: 60%;
+}
+.mother_sister, .father{
+    display:inline-block;
+    text-align: center;
+}
+figcaption{
+    width:100%;
+}
+.family_frame{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    background: white;
+    max-width: 80%;
+    margin:auto;
+}
+#tribute-info {
+    display:flex;
+    margin:auto;
+    max-width: 70%;
+}
+section{
+    display:flex;
+    max-width: 80%;
+    margin:auto
+}
+.person{
+    text-align: right;
+}
+
+
